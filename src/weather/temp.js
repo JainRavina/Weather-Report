@@ -37,7 +37,7 @@ function Temp() {
 
   useEffect(() => {
     getWeatherInfo();
-  }, []);
+  }, [getWeatherInfo]);
 
   return (
     <div>
